@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    padding:3rem;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    height: 90vh;
+    background-image: url(../images/5927911.gif);
+    background-size: cover;
+    position: relative;
+    
+}
+.textoHeader{
+    width: 100%;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    color:yellow;
+    text-transform: uppercase;
+}
+.textoHeader h1{
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    text-shadow: 0.5rem 1rem 1rem #000;
+    animation: entradaPorCima 1s;
+}
+.textoHeader h2{
+    font-size: 2rem;
+    letter-spacing: 1.75rem;
+    font-weight: 700;
+    text-shadow: 0.5rem 0.5rem 1rem #000;
+    margin-bottom: 5rem;
+    animation: entradaPorCima 1s;
+}
+.textoHeader a,
+.textoHeader a:visited{
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 5rem;
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    color: #000;
+    animation: entradaPorCima 1s;
+}
+.textoHeader a:hover{
+    transform: translatey(-0.5rem);
+    box-shadow: .5rem 1rem 3rem #000;
+}
+.textoHeader a:active{
+    transform: translatey(-0.2rem);
+    box-shadow: .5rem .5rem 1rem #000;
+}
+
+@keyframes entradaPorCima{
+    0%{
+        opacity: 0;
+        transform: translateY(-10rem);
+    }
+    80%{
+        transform: translateY(5rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+#sobreMim h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    font-weight: 500;
+    color: yellow;
+  }
+  
+  .modelos {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .modelo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+  }
+  
+  .modelo .fotos-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+  }
+  #foto-1 {
+    background-image:url("../images/20211130_133302.jpg");
+  }
+  
+  #foto-2 {
+    background-image:url("../images/natal.jfif") ;
+  }
+  
+  #foto-3 {
+    background-image:url("../images/jujubinha.jfif") ;
+  }
+  
+  main #qualidades{
+    background-image:linear-gradient(to bottom, rebeccapurple, steelblue, rebeccapurple);;
+    height: 90vh;
+    background-size:cover;
+    position: relative;
+    box-shadow: .5rem .5rem .5rem #000;
+  }
+  #qualidades{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    font-weight: 500;
+    color: yellow;
+    text-transform: uppercase;
+  }
+.view {
+    display:flex;
+    justify-content:flex;
+    align-items: left;
+    padding: 4rem;
+    width: 35%;
+    margin: 0 auto;
+    background-color: #636060;
+    border-radius: 200px;
+    margin-top: 3%;
+    box-shadow: .5rem .5rem .5rem #000;
+}
+.visao{
+    text-align: center;
+    display: flex;
+    flex-direction:flex;
+    align-items: left;
+    max-width: 100%;
+    color:yellow;
+    text-transform: uppercase;
+    font-size: 28px;
+}
